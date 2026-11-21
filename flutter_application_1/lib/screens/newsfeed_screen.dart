@@ -13,14 +13,16 @@ class NewsFeedScreen extends StatelessWidget {
           postContent: 'I can do this all day! #AvengersAssemble',
           date: '2 hours ago',
           numLikes: 10,
+          avatarUrl: 'https://i.pravatar.cc/150?img=12',
         ),
         NewsFeedCard(
-          userName: 'Tony Stark',
-          postContent:
-              'I am Iron Man. #GeniusBillionairePlayboyPhilanthropist',
+          userName: 'Jamal',
+          postContent: 'I saw a cop car today #PoliceChase #Exciting',
           date: 'December 1, 2023',
           numLikes: 1000,
           hasImage: true,
+          avatarUrl: 'assets/images/profile.jpg',
+          imageUrl: 'assets/images/copcar.jpg',
         ),
       ],
     );
